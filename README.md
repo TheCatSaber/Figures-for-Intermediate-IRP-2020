@@ -1,6 +1,10 @@
 # Figures-for-Intermediate-IRP-2020
 Please check [License](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/README.md#license) below for information on reuse.
 
+Premade figures are in [Figures](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/Figures).
+
+The code to replicate the figures is in [Code](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/Code).
+
 # List of Figures
 Petersen-Graph-Colouring
 
