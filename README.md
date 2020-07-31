@@ -5,10 +5,15 @@ Figures for Intermediate IRP 2020
 
 # How to use
 Install python 3.8 https://www.python.org/downloads/.
-Click the code button, and click download.
+
+Click the code button, and click download zip.
+
 Install networkx with `pip install networkx` in the command line.
+
 Install matplotlib with `pip install matplotlib` in the command line.
+
 Install numpy with `pip install numpy` in the command line.
+
 Run the code for the figure that you want to use by in the command line with `python [filename].py`.
 
 # Issues
