@@ -1,5 +1,5 @@
 # Figures-for-Intermediate-IRP-2020
-Figures for Intermediate IRP 2020
+Please check License below for information on reuse.
 
 # List of Figures
 Petersen-Graph-Colouring
