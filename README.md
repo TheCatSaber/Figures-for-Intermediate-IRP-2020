@@ -3,6 +3,8 @@ Figures for Intermediate IRP 2020
 
 # List of Figures
 Petersen-Graph-Colouring
+Bipartite-Graph-Optimal-Ordering
+Bipartite-Graph-Non-Optimal-Ordering
 
 # How to run the code yourself
 Install python 3.8 https://www.python.org/downloads/.
