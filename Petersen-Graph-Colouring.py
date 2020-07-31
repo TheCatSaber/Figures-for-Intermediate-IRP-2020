@@ -17,7 +17,7 @@ def numerical_to_colours(colouring):
 
 #Define the graph
 G = nx.Graph()
-G.add_nodes_from([chr(i) for i in range(65, 75)])
+G.add_nodes_from([chr(counter) for counter in range(65, 75)])
 edges = [('A', 'C'), ('A', 'D'), ('A', 'F'), ('B', 'D'), ('B', 'E'), ('B', 'G'), ('C', 'E'), ('C', 'H'), ('D', 'I'), ('E', 'J'), ('F', 'G'), ('G', 'H'), ('H', 'I'), ('I', 'J'), ('J', 'F')]
 G.add_edges_from(edges)
 
@@ -33,11 +33,11 @@ vertices = list(G.nodes())
 
 pos = {}
 
-for i in range(0,10):
-    if i < 5:
-        pos[vertices[i]] = (np.cos(angles[i]), np.sin(angles[i]))
+for counter in range(0,10):
+    if counter < 5:
+        pos[vertices[counter]] = (np.cos(angles[counter]), np.sin(angles[counter]))
     else:
-        pos[vertices[i]] = (1.75*np.cos(angles[i-5]), 1.75*np.sin(angles[i-5]))
+        pos[vertices[counter]] = (1.75*np.cos(angles[counter-5]), 1.75*np.sin(angles[counter-5]))
 
 #Draw the graph
 nx.draw_networkx(G, pos=pos, with_labels=False, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2)
