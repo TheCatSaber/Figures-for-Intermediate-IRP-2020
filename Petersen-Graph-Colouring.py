@@ -26,7 +26,7 @@ G.add_edges_from(edges)
 
 #Define the colouring
 colouring = {'A': 0, 'B': 1,'C': 1, 'D': 2, 'E': 2, 'F': 1, 'G': 0, 'H': 2, 'I': 1, 'J': 0}
-#Convet to colours
+#Convert to colours
 output_colouring = numerical_to_colours(colouring)
 
 #Define the positions of the nodes
