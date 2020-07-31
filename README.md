@@ -26,9 +26,10 @@ Put them in the issues.
 Go ahead!
 
 # License
- [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+The code ("This program") is available under 
+[GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
  
- Copyright (C) 2020  TheCatSaber
+ Copyright (C) 2020 TheCatSaber
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -40,3 +41,5 @@ Go ahead!
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
     
+The images are available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Valid attribution: TheCatSaber or my real name (if you know it).
