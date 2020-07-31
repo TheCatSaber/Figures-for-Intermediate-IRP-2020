@@ -3,7 +3,9 @@ Please check [License](https://github.com/TheCatSaber/Figures-for-Intermediate-I
 
 # List of Figures
 Petersen-Graph-Colouring
+
 Bipartite-Graph-Optimal-Ordering
+
 Bipartite-Graph-Non-Optimal-Ordering
 
 # How to run the code yourself
