@@ -33,7 +33,7 @@ vertices = list(G.nodes())
 
 pos = {}
 
-for counter in range(0,10):
+for counter in range(len(vertices)):
     if counter < 5:
         pos[vertices[counter]] = (np.cos(angles[counter]), np.sin(angles[counter]))
     else:
