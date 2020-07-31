@@ -24,6 +24,8 @@ Put them in the issues.
 Go ahead!
 
 # License
+ [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+ 
  Copyright (C) 2020  TheCatSaber
 
     This program is free software: you can redistribute it and/or modify
@@ -36,4 +38,3 @@ Go ahead!
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
     
-[GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
