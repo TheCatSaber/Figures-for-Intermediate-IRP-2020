@@ -15,6 +15,7 @@ def numerical_to_colours(colouring):
         output_colouring.append(OUTPUT_COLOURS[colour])
     return output_colouring
 
+
 #Define the graph
 G = nx.Graph()
 G.add_nodes_from([chr(counter) for counter in range(65, 75)])
