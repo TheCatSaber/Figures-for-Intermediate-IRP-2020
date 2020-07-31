@@ -1,5 +1,5 @@
 # Figures-for-Intermediate-IRP-2020
-Please check License below for information on reuse.
+Please check [License](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/README.md#license) below for information on reuse.
 
 # List of Figures
 Petersen-Graph-Colouring
@@ -42,4 +42,4 @@ The code ("This program") is available under
     GNU General Public License for more details.
     
 The figures are available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Valid attribution: TheCatSaber or my real name (if you know it).
+Valid attribution: TheCatSaber or preferably my real name if known.
