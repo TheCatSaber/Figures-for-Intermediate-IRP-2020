@@ -12,10 +12,7 @@ OUTPUT_COLOURS = ["blue", "lime", "red"]
 def numerical_to_colours(colouring):
     output_colouring = []
     for vertex, colour in colouring.items():
-        try:
-            output_colouring.append(OUTPUT_COLOURS[colour])
-        except IndexError:
-            raise IndexError
+        output_colouring.append(OUTPUT_COLOURS[colour])
     return output_colouring
 
 #Define the graph
