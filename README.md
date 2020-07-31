@@ -41,5 +41,5 @@ The code ("This program") is available under
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
     
-The images are available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+The figures are available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Valid attribution: TheCatSaber or my real name (if you know it).
