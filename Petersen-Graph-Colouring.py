@@ -26,7 +26,7 @@ colouring = {'A': 0, 'B': 1,'C': 1, 'D': 2, 'E': 2, 'F': 1, 'G': 0, 'H': 2, 'I':
 #Convert to colours
 output_colouring = numerical_to_colours(colouring)
 
-#Define the positions of the nodes
+#Define the positions of the vertices
 angles = [np.pi/2, np.pi/10, 17*np.pi/10, 13*np.pi/10, 9*np.pi/10]
 
 vertices = list(G.nodes())
