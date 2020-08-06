@@ -1,5 +1,5 @@
 # Figures-for-Intermediate-IRP-2020
-Please check [License](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/README.md#license) below for information on reuse.
+Please check [License](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/#license) below for information on reuse.
 
 Premade figures are in [Figures](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/Figures).
 
