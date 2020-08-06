@@ -5,7 +5,7 @@ import numpy as np
 
 
 #Constants
-OUTPUT_COLOURS = ["blue", "red", "green", "magenta"]
+OUTPUT_COLOURS = ["blue", "red", "green"]
 
 
 #Functions
