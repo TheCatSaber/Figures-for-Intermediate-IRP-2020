@@ -32,8 +32,6 @@ output_colouring = numerical_to_colours(colouring)
 
 #Define the positions of the vertices
 
-vertices = list(G.nodes())
-
 pos = {'A': (0, 0), 'B': (-1, 0), 'C': (-np.sqrt(2)/2, -np.sqrt(2)/2), 'D': (np.sqrt(2)/2, -np.sqrt(2)/2), 'E': (1, 0)}
 
 #Labels to represent colouring order
@@ -41,6 +39,6 @@ pos = {'A': (0, 0), 'B': (-1, 0), 'C': (-np.sqrt(2)/2, -np.sqrt(2)/2), 'D': (np.
 labels = {'A': 1, 'B': 4, 'C': 2, 'D': 3, 'E': 5}
 
 #Draw the graph
-nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="white", font_weight="heavy")
+nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="white", font_weight="heavy", node_size=600, font_size= 20)
 plt.savefig("Importance-Of-Order-Good-Ordering.png")
 plt.show()
