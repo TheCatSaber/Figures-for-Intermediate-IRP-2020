@@ -5,12 +5,20 @@ Premade figures are in [Figures](https://github.com/TheCatSaber/Figures-for-Inte
 
 The code to replicate the figures is in [Code](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/Code).
 
-# List of Figures
+# List of Figures (in order of created)
 Petersen-Graph-Colouring
 
 Bipartite-Graph-Optimal-Ordering
 
 Bipartite-Graph-Non-Optimal-Ordering
+
+Importance-Of-Order-Good-Ordering
+
+Importance-Of-Order-Bad-Ordering
+
+Example-Greedy-Colouring-Start
+
+Example-Greedy-Colouring-End
 
 # How to run the code yourself
 Install python 3.8 https://www.python.org/downloads/.
