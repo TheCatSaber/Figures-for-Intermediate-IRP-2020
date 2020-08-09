@@ -16,9 +16,11 @@ Importance-Of-Order-Good-Ordering
 
 Importance-Of-Order-Bad-Ordering
 
-Example-Greedy-Colouring-Start
+Example-Colouring-Start
 
 Example-Greedy-Colouring-End
+
+Example-DSatur-Colouring-End
 
 # How to run the code yourself
 Install python 3.8 https://www.python.org/downloads/.
