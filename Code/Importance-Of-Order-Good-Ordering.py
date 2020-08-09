@@ -26,7 +26,7 @@ edges = [('A', 'B'), ('A', 'C'), ('A', 'D'), ('A', 'E'), ('B', 'C'), ('C', 'D'),
 G.add_edges_from(edges)
 
 #Define the colouring
-colouring = {'A': 0, 'B': 1, 'C': 2, 'D': 1, 'E': 2}
+colouring = {'A': 0, 'B': 2, 'C': 1, 'D': 2, 'E': 1}
 #Convert to colours
 output_colouring = numerical_to_colours(colouring)
 
