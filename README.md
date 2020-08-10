@@ -22,6 +22,10 @@ Example-Greedy-Colouring-End
 
 Example-DSatur-Colouring-End
 
+DSatur-Good-DSatur
+
+DSatur-Good-Degree-Greedy
+
 # How to run the code yourself
 Install python 3.8 https://www.python.org/downloads/.
 
