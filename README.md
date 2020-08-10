@@ -12,9 +12,9 @@ Bipartite-Graph-Optimal-Ordering
 
 Bipartite-Graph-Non-Optimal-Ordering
 
-Importance-Of-Order-Good-Ordering
+Importance-Of-Degree-Good-Ordering
 
-Importance-Of-Order-Bad-Ordering
+Importance-Of-Degree-Bad-Ordering
 
 Example-Colouring-Start
 
