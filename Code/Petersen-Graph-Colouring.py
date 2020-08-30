@@ -5,7 +5,7 @@ import numpy as np
 
 
 #Constants
-OUTPUT_COLOURS = ["blue", "lime", "red"]
+OUTPUT_COLOURS = ["blue", "red", "green"]
 
 
 #Functions
@@ -44,5 +44,5 @@ for counter in range(len(vertices)):
 nx.draw_networkx(G, pos=pos, with_labels=False, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2)
 #https://stackoverflow.com/questions/17990845/how-to-equalize-the-scales-of-x-axis-and-y-axis-in-python-matplotlib
 plt.gca().set_aspect('equal', adjustable='box')
-plt.savefig("Petersen-Graph-Colouring.png")
+plt.savefig("../Figures/Petersen-Graph-Colouring.png")
 plt.show()
