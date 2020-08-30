@@ -40,5 +40,5 @@ labels = {'A': 1, 'B': 4, 'C': 2, 'D': 3, 'E': 5}
 
 #Draw the graph
 nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="white", font_weight="heavy", node_size=600, font_size=20)
-plt.savefig("Importance-Of-Degree-Good-Ordering.png")
+plt.savefig("../Figures/Importance-Of-Degree-Good-Ordering.png")
 plt.show()

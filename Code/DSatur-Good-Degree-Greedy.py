@@ -40,5 +40,5 @@ labels = {'A': 1, 'B': 5, 'C': 6, 'D': 3, 'E': 4, 'F': 2, 'G': 7, 'H': 8}
 
 #Draw the graph
 nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="white", font_weight="heavy", node_size=600, font_size=20)
-plt.savefig("DSatur-Good-Degree-Greedy.png")
+plt.savefig("../Figures/DSatur-Good-Degree-Greedy.png")
 plt.show()

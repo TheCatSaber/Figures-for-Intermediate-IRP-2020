@@ -19,5 +19,5 @@ labels = {vertex: vertex for vertex in G.nodes()}
 
 #Draw the graph
 nx.draw_networkx(G, pos=pos, with_labels=True, node_color="white", linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="black", font_weight="medium", node_size=600, font_size=20)
-plt.savefig("Example-Colouring-Start.png")
+plt.savefig("../Figures/Example-Colouring-Start.png")
 plt.show()

@@ -50,5 +50,5 @@ labels = {'A': 1, 'B': 3, 'C': 5, 'D': 7, 'E': 2, 'F': 4, 'G': 6, 'H': 8}
 nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="white", font_weight="heavy")
 #https://stackoverflow.com/questions/17990845/how-to-equalize-the-scales-of-x-axis-and-y-axis-in-python-matplotlib
 plt.gca().set_aspect('equal', adjustable='box')
-plt.savefig("Bipartite-Graphs-Non-Optimal-Ordering.png")
+plt.savefig("../Figures/Bipartite-Graphs-Non-Optimal-Ordering.png")
 plt.show()
