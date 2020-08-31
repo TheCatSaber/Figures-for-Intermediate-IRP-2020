@@ -1,52 +1,18 @@
 # Imports
-import networkx as nx
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-# Constants
-OUTPUT_COLOURS = ["blue", "red", "green", "magenta"]
-
-
-# Functions
-def numerical_to_colours(colouring):
-    """Convert numberical colouring to actual colours."""
-    output_colouring = []
-    for vertex, colour in colouring.items():
-        try:
-            output_colouring.append(OUTPUT_COLOURS[colour])
-        except IndexError:
-            raise IndexError
-    return output_colouring
-
+import shared_code
 
 # Main function
-# Define the graph
-G = nx.Graph()
-G.add_nodes_from([chr(i) for i in range(65, 70)])
-edges = [('A', 'B'), ('A', 'C'), ('A', 'D'), ('A', 'E'), ('B', 'C'),
-         ('C', 'D'), ('D', 'E')]
-G.add_edges_from(edges)
+# Define the graph.
+G = shared_code.create_graph(5, shared_code.degree_importance_edges)
 
-# Define the colouring
+# Colouring
 colouring = {'A': 3, 'B': 0, 'C': 1, 'D': 2, 'E': 0}
+output_colouring = shared_code.numerical_to_colours(colouring)
 
-# Convert to colours
-output_colouring = numerical_to_colours(colouring)
-
-# Define the positions of the vertices
-pos = {'A': (0, 0), 'B': (-1, 0), 'C': (-np.sqrt(2)/2, -np.sqrt(2)/2),
-       'D': (np.sqrt(2)/2, -np.sqrt(2)/2), 'E': (1, 0)}
-
-# Labels to represent colouring order
+# Labels to represent colouring order.
 labels = {'A': 5, 'B': 1, 'C': 3, 'D': 4, 'E': 2}
 
-# Draw the graph
-nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring,
-                 linewidths=1.75, edgecolors="black", width=2, labels=labels,
-                 font_color="white", font_weight="heavy", node_size=600,
-                 font_size=20)
-
-# Save the graph
-plt.savefig("../Figures/Importance-Of-Degree-Bad-Ordering.png")
-plt.show()
+# Create figure.
+shared_code.output_v_one(
+    G, shared_code.degree_importance_pos, output_colouring, labels,
+    "..\Figures\Importance-Of-Degree-Bad-Ordering.png")
