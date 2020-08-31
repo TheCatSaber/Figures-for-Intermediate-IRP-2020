@@ -31,6 +31,8 @@ Install python 3.8 https://www.python.org/downloads/.
 
 Click the code button, and click download zip.
 
+Extract the code.
+
 Install networkx with `pip install networkx` in the command line.
 
 Install matplotlib with `pip install matplotlib` in the command line.
@@ -64,3 +66,5 @@ Copyright (C) 2020 TheCatSaber
 The figures are available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 In both cases, the author should be stated as my real name if known, otherwise TheCatSaber.
+
+If you run the code and create the Figures, you can choose whether to use CC BY-SA 4.0 or GNU GPLv3.
