@@ -9,6 +9,6 @@ G = shared_code.create_graph(4, shared_code.example_edges)
 labels = {'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D'}
 
 # Create figure.
-shared_code.output_v_one(
-    G, shared_code.example_pos, {vertex: "white" for vertex in G}, labels,
+shared_code.output_v_two(
+    G, shared_code.example_pos, labels,
     "..\Figures\Example-Colouring-Start.png")

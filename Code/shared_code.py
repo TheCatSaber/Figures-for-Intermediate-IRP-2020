@@ -52,7 +52,7 @@ petersen_edges = [
 def petersen_pos(vertices):
     """Return dict of positions for Petersen graph.
 
-    vertices -- vertices of Petersen graph (10 element iterable).
+    vertices -- vertices of Petersen graph (10 element list).
     """
     pi = np.pi
     # Angles starts at top of a circle,
@@ -64,7 +64,12 @@ def petersen_pos(vertices):
     outside_vertices = {vertices[counter+5]: (1.75*np.cos(angles[counter]), 1.75*np.sin(angles[counter])) for counter in range(5)}
 
     # Return all of the vertices
-    return inside_vertices + outside_vertices
+    all_vertices = {}
+    for key, value in inside_vertices.items():
+        all_vertices[key] = value
+    for key, value in outside_vertices.items():
+        all_vertices[key] = value
+    return all_vertices
 
 
 # Functions
@@ -140,7 +145,32 @@ def output_v_one(G, pos, output_colouring, labels, save_as):
     plt.savefig(save_as)
     plt.show()
 
-def output_v_two(G, pos, output_colouring, save_as):
+def output_v_two(G, pos, labels, save_as):
+    """Draw, save and show G with nx.draw_networkx.
+    
+    pos -- positions of vertices (dict).
+    labels -- labels for vertices of G (dict).
+    save_as -- file name to save the figure as.
+
+    Other kwargs used for nx.draw_networkx:
+    node_color="white"
+    linewidths=1.75
+    edgecolors="black"
+    width=2
+    font_color="black"
+    font_weight="medium"
+    node_size=600
+    font_size=20
+    """
+    nx.draw_networkx(G, pos=pos, node_color="white",
+                     linewidths=1.75, edgecolors="black", width=2,
+                     labels=labels, font_color="black", font_weight="medium",
+                     node_size=600, font_size=20)
+
+    plt.savefig(save_as)
+    plt.show()
+
+def output_v_three(G, pos, output_colouring, save_as):
     """Draw, save and show G with nx.draw_networkx.
     
     pos -- positions of vertices (dict).
@@ -156,6 +186,9 @@ def output_v_two(G, pos, output_colouring, save_as):
     nx.draw_networkx(G, pos=pos, with_labels=False,
                      node_color=output_colouring, linewidths=1.75,
                      edgecolors="black", width=2)
+
+    # Equal axes (source: https://stackoverflow.com/questions/17990845).
+    plt.gca().set_aspect('equal', adjustable='box')
 
     plt.savefig(save_as)
     plt.show()

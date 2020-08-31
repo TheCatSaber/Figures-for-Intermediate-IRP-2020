@@ -3,7 +3,7 @@ import shared_code
 
 # Run everything.
 # Create the graph.
-G = shared_code.create_graph(8, shared_code.dsatur_good_edges)
+G = shared_code.create_graph(8, shared_code.dsatur_edges)
 
 # Colouring
 colouring = {'A': 0, 'B': 1, 'C': 1, 'D': 1, 'E': 0, 'F': 1, 'G': 0, 'H': 0}
