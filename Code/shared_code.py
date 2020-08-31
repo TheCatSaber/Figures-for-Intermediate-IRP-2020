@@ -102,7 +102,7 @@ def create_graph(size, edges):
     """Return networkx.Graph() object with size vertices and
     edges edges.
     
-    The vertices will be unicode characters starting at 'A'.
+    The vertices are unicode characters starting at 'A'.
     size -- number of vertices in graph.
     edges -- list of tuples of edges for the graph.
     """
