@@ -1,43 +1,18 @@
-#Imports
-import networkx as nx
-import matplotlib.pyplot as plt
+# Imports
+import shared_code
 
+# Main function
+# Define the graph.
+G = shared_code.create_graph(4, shared_code.example_edges)
 
-#Constants
-OUTPUT_COLOURS = ["blue", "red", "green"]
-
-
-#Functions
-def numerical_to_colours(colouring):
-    output_colouring = []
-    for vertex, colour in colouring.items():
-        try:
-            output_colouring.append(OUTPUT_COLOURS[colour])
-        except IndexError:
-            raise IndexError
-    return output_colouring
-
-
-#Define the graph
-G = nx.Graph()
-G.add_nodes_from([chr(i) for i in range(65, 69)])
-edges = [('A', 'B'), ('A', 'C'), ('B', 'C'), ('B', 'D'), ('C', 'D')]
-G.add_edges_from(edges)
-
-#Define the colouring
+# Colouring
 colouring = {'A': 1, 'B': 0, 'C': 2, 'D': 1}
-#Convert to colours
-output_colouring = numerical_to_colours(colouring)
+output_colouring = shared_code.numerical_to_colours(colouring)
 
-#Define the positions of the vertices
+# Labels of node names.
+labels = {'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D'}
 
-pos = {'A': (-1, 0), 'B': (0, -1), 'C': (0, 0), 'D': (1, 0)}
-
-#Labels of node names
-
-labels = {vertex: vertex for vertex in G.nodes()}
-
-#Draw the graph
-nx.draw_networkx(G, pos=pos, with_labels=True, node_color=output_colouring, linewidths=1.75, edgecolors="black", width=2, labels=labels, font_color="white", font_weight="heavy", node_size=600, font_size=20)
-plt.savefig("../Figures/Example-Greedy-Colouring-End.png")
-plt.show()
+# Create figure.
+shared_code.output_v_one(
+    G, shared_code.example_pos, output_colouring, labels,
+    "..\Figures\Example-Greedy-Colouring-End.png")
