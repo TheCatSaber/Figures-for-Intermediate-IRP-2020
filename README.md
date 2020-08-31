@@ -51,7 +51,7 @@ Go ahead!
 The code ("This program") is available under 
 [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-A copy is included [here](https://github.com/TheCatSaber/Code-for-Intermediate-IRP-2020/LICENSE).
+A copy is included [here](https://github.com/TheCatSaber/Figures-for-Intermediate-IRP-2020/blob/master/LICENSE).
  
 Copyright (C) 2020 TheCatSaber
 
