@@ -8,9 +8,9 @@ The code to replicate the figures is in [Code](https://github.com/TheCatSaber/Fi
 # List of Figures (in order of created)
 Petersen-Graph-Colouring
 
-Bipartite-Graph-Optimal-Ordering
+Bipartite-Graph-Optimal-Ordering - Not used in IRP
 
-Bipartite-Graph-Non-Optimal-Ordering
+Bipartite-Graph-Non-Optimal-Ordering - Not used in IRP
 
 Importance-Of-Degree-Good-Ordering
 
